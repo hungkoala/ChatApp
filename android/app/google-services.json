@@ -1,40 +1,84 @@
 {
   "project_info": {
-    "project_number": "526972277892",
-    "project_id": "chat-3d2ab",
-    "storage_bucket": "chat-3d2ab.appspot.com"
+    "project_number": "594771741498",
+    "project_id": "chat-app-2-dc57c",
+    "storage_bucket": "chat-app-2-dc57c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:526972277892:android:de6e2ac27087443715ded1",
+        "mobilesdk_app_id": "1:594771741498:android:1fa720e4a63361a494de03",
         "android_client_info": {
-          "package_name": "com.hungnguyen.chat"
+          "package_name": "com.chatapp2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "526972277892-4l21dhth6to4956usston81tek671fep.apps.googleusercontent.com",
+          "client_id": "594771741498-7tqbqupmvb2kcac2aits3pj4mh7du1vl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCE8-TDIDKuNC_6q1V6I78Xdo1kIsTT4Mc"
+          "current_key": "AIzaSyDjUDdAAvSC6P0BoY95J18yed4do3NGep8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "526972277892-4l21dhth6to4956usston81tek671fep.apps.googleusercontent.com",
+              "client_id": "594771741498-7tqbqupmvb2kcac2aits3pj4mh7du1vl.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "526972277892-su61ihn43adpnesg4kh5tlj0alndpru9.apps.googleusercontent.com",
+              "client_id": "594771741498-dg1cnh6ctu33atf6bi1k35oh3p69u334.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.hungnguyen.chat"
+                "bundle_id": "com.hung.chatapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594771741498:android:4fdb230bb1efb30494de03",
+        "android_client_info": {
+          "package_name": "com.hung.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594771741498-spg8tcsi5g73jmlf04r9getknroq3fcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hung.chatapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "594771741498-7tqbqupmvb2kcac2aits3pj4mh7du1vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjUDdAAvSC6P0BoY95J18yed4do3NGep8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594771741498-7tqbqupmvb2kcac2aits3pj4mh7du1vl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "594771741498-dg1cnh6ctu33atf6bi1k35oh3p69u334.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hung.chatapp"
               }
             }
           ]

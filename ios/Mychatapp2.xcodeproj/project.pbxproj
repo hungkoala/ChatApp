@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ChatApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChatApp2Tests.m */; };
+		00E356F31AD99517003FC87E /* Mychatapp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Mychatapp2Tests.m */; };
 		0E341752265FFB0D00AEFC21 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0E341751265FFB0C00AEFC21 /* fonts */; };
 		0E3417542660B95A00AEFC21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E3417532660B95A00AEFC21 /* GoogleService-Info.plist */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		5B79AE3D24258D408A7C04D6 /* libPods-ChatApp2-ChatApp2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4B90591ADA40D38F80689E /* libPods-ChatApp2-ChatApp2Tests.a */; };
+		5B79AE3D24258D408A7C04D6 /* libPods-Mychatapp2-Mychatapp2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4B90591ADA40D38F80689E /* libPods-Mychatapp2-Mychatapp2Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E869D195C72847E02F09E4CC /* libPods-ChatApp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC981AB1D18BFB46684B9372 /* libPods-ChatApp2.a */; };
+		E869D195C72847E02F09E4CC /* libPods-Mychatapp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC981AB1D18BFB46684B9372 /* libPods-Mychatapp2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,29 +24,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ChatApp2;
+			remoteInfo = Mychatapp2;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ChatApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* Mychatapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mychatapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ChatApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatApp2Tests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Mychatapp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mychatapp2Tests.m; sourceTree = "<group>"; };
 		0E341751265FFB0C00AEFC21 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		0E3417532660B95A00AEFC21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "ChatApp2/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		0E4B90591ADA40D38F80689E /* libPods-ChatApp2-ChatApp2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatApp2-ChatApp2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* ChatApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChatApp2/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ChatApp2/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChatApp2/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChatApp2/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChatApp2/main.m; sourceTree = "<group>"; };
-		3D4E40D94B62533A584209A3 /* Pods-ChatApp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp2.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp2/Pods-ChatApp2.debug.xcconfig"; sourceTree = "<group>"; };
-		4AEF0BB2199867BD07EA15F4 /* Pods-ChatApp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp2.release.xcconfig"; path = "Target Support Files/Pods-ChatApp2/Pods-ChatApp2.release.xcconfig"; sourceTree = "<group>"; };
-		63CA6D17378C0BA093E09325 /* Pods-ChatApp2-ChatApp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp2-ChatApp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		79D0CA3272128E2E3F120334 /* Pods-ChatApp2-ChatApp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp2-ChatApp2Tests.release.xcconfig"; path = "Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChatApp2/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC981AB1D18BFB46684B9372 /* libPods-ChatApp2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatApp2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E3417532660B95A00AEFC21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Mychatapp2/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E4B90591ADA40D38F80689E /* libPods-Mychatapp2-Mychatapp2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mychatapp2-Mychatapp2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* Mychatapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mychatapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Mychatapp2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Mychatapp2/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Mychatapp2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Mychatapp2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Mychatapp2/main.m; sourceTree = "<group>"; };
+		3D4E40D94B62533A584209A3 /* Pods-Mychatapp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mychatapp2.debug.xcconfig"; path = "Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2.debug.xcconfig"; sourceTree = "<group>"; };
+		4AEF0BB2199867BD07EA15F4 /* Pods-Mychatapp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mychatapp2.release.xcconfig"; path = "Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2.release.xcconfig"; sourceTree = "<group>"; };
+		63CA6D17378C0BA093E09325 /* Pods-Mychatapp2-Mychatapp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mychatapp2-Mychatapp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		79D0CA3272128E2E3F120334 /* Pods-Mychatapp2-Mychatapp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mychatapp2-Mychatapp2Tests.release.xcconfig"; path = "Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Mychatapp2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC981AB1D18BFB46684B9372 /* libPods-Mychatapp2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mychatapp2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B79AE3D24258D408A7C04D6 /* libPods-ChatApp2-ChatApp2Tests.a in Frameworks */,
+				5B79AE3D24258D408A7C04D6 /* libPods-Mychatapp2-Mychatapp2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,20 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E869D195C72847E02F09E4CC /* libPods-ChatApp2.a in Frameworks */,
+				E869D195C72847E02F09E4CC /* libPods-Mychatapp2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ChatApp2Tests */ = {
+		00E356EF1AD99517003FC87E /* Mychatapp2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ChatApp2Tests.m */,
+				00E356F21AD99517003FC87E /* Mychatapp2Tests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ChatApp2Tests;
+			path = Mychatapp2Tests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -87,7 +87,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ChatApp2 */ = {
+		13B07FAE1A68108700A75B9A /* Mychatapp2 */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -97,15 +97,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ChatApp2;
+			name = Mychatapp2;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CC981AB1D18BFB46684B9372 /* libPods-ChatApp2.a */,
-				0E4B90591ADA40D38F80689E /* libPods-ChatApp2-ChatApp2Tests.a */,
+				CC981AB1D18BFB46684B9372 /* libPods-Mychatapp2.a */,
+				0E4B90591ADA40D38F80689E /* libPods-Mychatapp2-Mychatapp2Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 			children = (
 				0E3417532660B95A00AEFC21 /* GoogleService-Info.plist */,
 				0E341751265FFB0C00AEFC21 /* fonts */,
-				13B07FAE1A68108700A75B9A /* ChatApp2 */,
+				13B07FAE1A68108700A75B9A /* Mychatapp2 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ChatApp2Tests */,
+				00E356EF1AD99517003FC87E /* Mychatapp2Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				ADC750035DB1834624E1E719 /* Pods */,
@@ -137,8 +137,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ChatApp2.app */,
-				00E356EE1AD99517003FC87E /* ChatApp2Tests.xctest */,
+				13B07F961A680F5B00A75B9A /* Mychatapp2.app */,
+				00E356EE1AD99517003FC87E /* Mychatapp2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,10 +146,10 @@
 		ADC750035DB1834624E1E719 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D4E40D94B62533A584209A3 /* Pods-ChatApp2.debug.xcconfig */,
-				4AEF0BB2199867BD07EA15F4 /* Pods-ChatApp2.release.xcconfig */,
-				63CA6D17378C0BA093E09325 /* Pods-ChatApp2-ChatApp2Tests.debug.xcconfig */,
-				79D0CA3272128E2E3F120334 /* Pods-ChatApp2-ChatApp2Tests.release.xcconfig */,
+				3D4E40D94B62533A584209A3 /* Pods-Mychatapp2.debug.xcconfig */,
+				4AEF0BB2199867BD07EA15F4 /* Pods-Mychatapp2.release.xcconfig */,
+				63CA6D17378C0BA093E09325 /* Pods-Mychatapp2-Mychatapp2Tests.debug.xcconfig */,
+				79D0CA3272128E2E3F120334 /* Pods-Mychatapp2-Mychatapp2Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ChatApp2Tests */ = {
+		00E356ED1AD99517003FC87E /* Mychatapp2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ChatApp2Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Mychatapp2Tests" */;
 			buildPhases = (
 				23AE755CDB5FBEE2109CC331 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ChatApp2Tests;
-			productName = ChatApp2Tests;
-			productReference = 00E356EE1AD99517003FC87E /* ChatApp2Tests.xctest */;
+			name = Mychatapp2Tests;
+			productName = Mychatapp2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* Mychatapp2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ChatApp2 */ = {
+		13B07F861A680F5B00A75B9A /* Mychatapp2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChatApp2" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mychatapp2" */;
 			buildPhases = (
 				8159A89BF57C3ADD8390A351 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -196,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = ChatApp2;
-			productName = ChatApp2;
-			productReference = 13B07F961A680F5B00A75B9A /* ChatApp2.app */;
+			name = Mychatapp2;
+			productName = Mychatapp2;
+			productReference = 13B07F961A680F5B00A75B9A /* Mychatapp2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ChatApp2" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mychatapp2" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ChatApp2 */,
-				00E356ED1AD99517003FC87E /* ChatApp2Tests */,
+				13B07F861A680F5B00A75B9A /* Mychatapp2 */,
+				00E356ED1AD99517003FC87E /* Mychatapp2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,7 +288,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChatApp2-ChatApp2Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Mychatapp2-Mychatapp2Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,7 +323,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChatApp2-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Mychatapp2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,15 +336,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		910E3F690B8B156828FED7FD /* [CP] Embed Pods Frameworks */ = {
@@ -353,15 +353,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp2-ChatApp2Tests/Pods-ChatApp2-ChatApp2Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2-Mychatapp2Tests/Pods-Mychatapp2-Mychatapp2Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A10528AFE76E74EC7D4FD941 /* [CP] Embed Pods Frameworks */ = {
@@ -370,15 +370,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B227AB2F8894D7E4BF76FA42 /* [CP] Copy Pods Resources */ = {
@@ -387,15 +387,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp2/Pods-ChatApp2-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mychatapp2/Pods-Mychatapp2-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -424,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ChatApp2Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* Mychatapp2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +442,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ChatApp2 */;
+			target = 13B07F861A680F5B00A75B9A /* Mychatapp2 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,14 +450,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63CA6D17378C0BA093E09325 /* Pods-ChatApp2-ChatApp2Tests.debug.xcconfig */;
+			baseConfigurationReference = 63CA6D17378C0BA093E09325 /* Pods-Mychatapp2-Mychatapp2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ChatApp2Tests/Info.plist;
+				INFOPLIST_FILE = Mychatapp2Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,17 +471,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatApp2.app/ChatApp2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mychatapp2.app/Mychatapp2";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79D0CA3272128E2E3F120334 /* Pods-ChatApp2-ChatApp2Tests.release.xcconfig */;
+			baseConfigurationReference = 79D0CA3272128E2E3F120334 /* Pods-Mychatapp2-Mychatapp2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ChatApp2Tests/Info.plist;
+				INFOPLIST_FILE = Mychatapp2Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,19 +495,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatApp2.app/ChatApp2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mychatapp2.app/Mychatapp2";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D4E40D94B62533A584209A3 /* Pods-ChatApp2.debug.xcconfig */;
+			baseConfigurationReference = 3D4E40D94B62533A584209A3 /* Pods-Mychatapp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ChatApp2/Info.plist;
+				INFOPLIST_FILE = Mychatapp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,7 +518,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ChatApp2;
+				PRODUCT_NAME = Mychatapp2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -527,12 +527,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AEF0BB2199867BD07EA15F4 /* Pods-ChatApp2.release.xcconfig */;
+			baseConfigurationReference = 4AEF0BB2199867BD07EA15F4 /* Pods-Mychatapp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ChatApp2/Info.plist;
+				INFOPLIST_FILE = Mychatapp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +543,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ChatApp2;
+				PRODUCT_NAME = Mychatapp2;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -675,7 +675,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ChatApp2Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Mychatapp2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -684,7 +684,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChatApp2" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Mychatapp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -693,7 +693,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ChatApp2" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Mychatapp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

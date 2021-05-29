@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>526972277892-su61ihn43adpnesg4kh5tlj0alndpru9.apps.googleusercontent.com</string>
+	<string>594771741498-dg1cnh6ctu33atf6bi1k35oh3p69u334.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.526972277892-su61ihn43adpnesg4kh5tlj0alndpru9</string>
+	<string>com.googleusercontent.apps.594771741498-dg1cnh6ctu33atf6bi1k35oh3p69u334</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>594771741498-spg8tcsi5g73jmlf04r9getknroq3fcg.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyB1aTDnkpjOiwI-69sALeebFSpjwydgeFw</string>
+	<string>AIzaSyDvFi4IMqLWm6ZXESCsWM68BVbO2_eCPwI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>526972277892</string>
+	<string>594771741498</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.hungnguyen.chat</string>
+	<string>com.hung.chatapp</string>
 	<key>PROJECT_ID</key>
-	<string>chat-3d2ab</string>
+	<string>chat-app-2-dc57c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>chat-3d2ab.appspot.com</string>
+	<string>chat-app-2-dc57c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:526972277892:ios:a63116818ad3a8dd15ded1</string>
+	<string>1:594771741498:ios:445b607d831da5a394de03</string>
 </dict>
 </plist>

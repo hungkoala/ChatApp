@@ -1,4 +1,4 @@
-package com.chatapp2;
+package com.hung.chatapp;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "ChatApp2";
+    return "Mychatapp2";
   }
 }

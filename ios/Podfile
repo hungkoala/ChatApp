@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'ChatApp2' do
+target 'Mychatapp2' do
   config = use_native_modules!
 
   use_react_native!(
@@ -12,7 +12,7 @@ target 'ChatApp2' do
     :hermes_enabled => false
   )
 
-  target 'ChatApp2Tests' do
+  target 'Mychatapp2Tests' do
     inherit! :complete
     # Pods for testing
   end
