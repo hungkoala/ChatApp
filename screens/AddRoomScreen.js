@@ -4,9 +4,34 @@ import FormButton from '../components/FormButton';
 import FormInput from '../components/FormInput';
 import {IconButton} from 'react-native-paper';
 import {Title} from 'react-native-paper';
+import firestore from '@react-native-firebase/firestore';
 
 export default function AddRoomScreen({navigation}) {
   const [roomName, setRoomName] = useState('');
+
+  const handleButtonPress = () => {
+    if (roomName.length > 0) {
+      console.log('room name ', roomName);
+      firestore()
+        .collection('THREADS')
+        .add({
+          name: roomName,
+          latestMessage: {
+            text: `You have joined the room ${roomName}.`,
+            createdAt: new Date().getTime(),
+          },
+        })
+        .then(docRef => {
+          docRef.collection('MESSAGES').add({
+            text: `You have joined the room ${roomName}.`,
+            createdAt: new Date().getTime(),
+            system: true,
+          });
+          navigation.navigate('Home');
+        })
+        .catch(err => console.log('room creation error ', err));
+    }
+  };
 
   return (
     <View style={styles.rootContainer}>
